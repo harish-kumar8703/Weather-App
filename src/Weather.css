@@ -1,0 +1,9 @@
+.weather {
+  background-color: rgb(214, 214, 214, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+p {
+  font-family: "Staatliches", cursive;
+  font-size: medium;
+}
