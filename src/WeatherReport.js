@@ -14,7 +14,7 @@ function WeatherReport({
     <div className="weather">
       <p>{location}</p>
       <p>{weather.description}</p>
-      <img src={"http://openweathermap.org/img/wn/" + img + "@2x.png"} />
+      <img src={"http://openweathermap.org/img/wn/" + img + "@2x.png"} alt="" />
       <p>{Math.round(main.temp - 273.15)} C </p>
       <p>FEELS LIKE {Math.round(main.feels_like - 273.15)} C</p>
       <p>WIND SPEED : {wind.speed} Km/h</p>
