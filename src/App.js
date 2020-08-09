@@ -19,7 +19,7 @@ function App() {
     const { data } = await Axios.get(
       `http://api.openweathermap.org/data/2.5/weather?q=${search}&APPID=${API}`
     );
-    console.log(data);
+
     setResult({
       weather: data.weather[0],
       main: data.main,
